@@ -1,0 +1,149 @@
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.home-header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.fitness-section, .routine-section {
+    
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 20px;
+    width: 40%;
+    text-align: center;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* .post-container{
+    color: black;
+    width: 90%;
+    height: 90vh;
+    margin-bottom: 20px;
+    background-color: #aba9a9;
+    border: 1px solid #ddd;
+} */
+.user-dp{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.dp-username{
+    display: flex;
+}
+.dp-username p{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.post-content{
+  background-size: cover;
+    height: 65vh;
+    width: 50% ;
+    
+}
+/* .like-comments{
+    display: flex;
+    
+    padding: 20px;
+} */
+
+
+.post-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 16px;
+    background-color: #e4e4e4;
+  }
+
+  .like-comments {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    padding: 8px 16px;
+    background-color: rgba(246, 244, 244, 0.9);
+    border-top: 1px solid #ddd;
+    color: black;
+  }
+/* .lc-excld-time{
+    display: flex;
+    
+    align-items: end;
+} */
+  /* .like-cont {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  } */
+.comment-cont{
+    display: flex;
+    width: 70px;
+    justify-content: space-around;
+    
+}
+  
+.comment-cont p{
+    padding-top: 10px;
+    margin-top: -5px;
+    margin-left:-15px;
+}
+.like-cont{
+    display: flex;
+    width: 70px;
+    justify-content: space-around;
+}
+.liked {
+    fill: red;
+    stroke: red;
+   
+  }
+  
+  .not-liked {
+    fill: none;
+    stroke: black;
+    
+
+  }
+  .time-date{
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+  }
+
+.like-cont p{
+    padding-top: 10px;
+    margin-top: -5px;
+    margin-left:-20px;
+}

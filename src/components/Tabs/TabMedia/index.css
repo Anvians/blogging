@@ -1,0 +1,20 @@
+.media_image{
+    width: 30%;
+    height: 30%;
+}
+.post-content{
+    width: 100% !important;
+    background-color: rgb(219, 221, 220);
+    margin: 5px;
+    
+}
+
+.post-tab-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    
+}
+.post-tab-content > * {
+    height: 100%; /* Adjust as needed */
+}

@@ -1,0 +1,62 @@
+.modal-content{
+    width: 25% !important;
+}
+/* .fix-searchbar {
+    position: fixed;
+    top: 0; /* Anchors the element to the top of the screen */
+    /* left: 0; /* Anchors the element to the left of the screen */
+    /* width: 100%; Ensure it spans the full width of its container */
+    /* z-index: 1; Ensure it stays above other elements if needed */
+/* } */ 
+.following-item {
+    display: flex;
+    justify-content: space-around; /* Space between elements */
+    align-items: center;
+    background-color: rgb(189, 187, 187);
+    border: 1px solid #ccc; /* Add a border */
+    margin: 8px 20px; /* Adjust margins */
+    border-radius: 5px;
+}
+
+.profile-picture {
+    width: 40px; /* Slightly larger profile picture */
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px; /* Add spacing between the image and text */
+}
+
+.user-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center align text vertically */
+    align-items: flex-start; /* Align text to the left */
+    color: black;
+    flex: 1; /* Take up remaining space */
+    margin-left: -50px;
+}
+
+.username {
+    color: rgb(68, 68, 68);
+    font-weight: bold;
+}
+
+.name {
+    margin-top: -5px;
+    font-size: 0.9em; /* Slightly smaller font for the name */
+    color: #555;
+}
+
+.search-btn {
+    padding: 8px 15px; /* Add padding to the button */
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    align-self: flex-start;
+}
+
+.search-btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+}

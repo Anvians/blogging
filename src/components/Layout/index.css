@@ -1,0 +1,67 @@
+/* Transition for Sidebar */
+.layoutcss {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #000;
+  }
+  
+  /* Search Icon */
+  .search-icon {
+    transition: transform 0.3s ease, width 0.3s ease;
+    cursor: pointer;
+  }
+  
+  /* Shrink the search icon when open */
+  .search-open {
+    transform: translateX(-100px);  /* Move the icon to the left */
+    width: 18px;
+  }
+  
+  /* Search bar styles */
+  .search-user {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* User result style */
+  .user-search-result {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .user_icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .user-details {
+    margin-left: 10px;
+  }
+  
+  .link-style {
+    display: flex;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .user-name {
+    font-size: 14px;
+    color: #666;
+  }
+  .icon-name{
+    display: flex;
+  }
+  .icon-name p{
+    margin: 20px;
+  }
+  .icon-name svg{
+    margin-top: 20px;
+  }
